@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public Rigidbody2D body;
-    //public Animator animator;
+    private Animator animator;
     public float moveSpeed = 10f;  
     private Vector2 direction;
     private Vector2 velocity;
@@ -14,9 +14,14 @@ public class Movement : MonoBehaviour
     //public float dodgeCooldown = 3f;
     private bool sprint = false;
 
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void Update()
     {
         ProcessInputs();
+        animate();
     }
 
     private void ProcessInputs()
@@ -25,7 +30,7 @@ public class Movement : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
         direction = new Vector2(horizontal, vertical).normalized;
         bool sprint = Input.GetButtonDown("Jump");
-
+        
     }
 
     private void faceMouse()
@@ -45,13 +50,18 @@ public class Movement : MonoBehaviour
         body.velocity = velocity;
     }
 
-    //private void animate()
+    private void animate()
+    {
+        animator.SetFloat("Horizontal", direction.x);
+        animator.SetFloat("Vertical", direction.y);
+        animator.SetFloat("Speed", Mathf.Abs(velocity.x) + Mathf.Abs(velocity.y));
+    }
    
 
         private void FixedUpdate()
     {
         //faceMouse();
         Move();
-        //animate();
+        
     }
 }
