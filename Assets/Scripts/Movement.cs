@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         direction = new Vector2(horizontal, vertical).normalized;
-        bool sprint = Input.GetButtonDown("Jump");
+        bool sprint = Input.GetButton("Jump");
         
     }
 
@@ -47,6 +47,7 @@ public class Movement : MonoBehaviour
         {
             velocity *= 2;
         }
+        //Debug.Log(velocity);
         body.velocity = velocity;
     }
 
