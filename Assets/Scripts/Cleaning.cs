@@ -9,7 +9,7 @@ public class Cleaning : MonoBehaviour
     {
         if (collision.CompareTag("Dirt") && collision != null)
         {
-            Debug.Log("On Dirt");
+            //Debug.Log("On Dirt");
             if (Input.GetButton("Fire1"))
             {
                 GetComponentInParent<Animator>().Play("Clean");
