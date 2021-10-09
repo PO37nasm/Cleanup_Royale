@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: fe7db589a42fbb644bffce6bac69d24a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3122098052583171143
+    second: Props_atlas_0
+  - first:
+      213: 7587304977378375789
+    second: Props_atlas_1
+  - first:
+      213: -14277179330221281
+    second: Props_atlas_2
+  - first:
+      213: -8568551313871719469
+    second: Props_atlas_3
+  - first:
+      213: 886327493673536342
+    second: Props_atlas_4
+  - first:
+      213: 149615811508050877
+    second: Props_atlas_5
+  - first:
+      213: -4828093763891371168
+    second: Props_atlas_6
+  - first:
+      213: -2858811424024109146
+    second: Props_atlas_7
+  - first:
+      213: 8179434713242852242
+    second: Props_atlas_8
+  - first:
+      213: -184881838496765611
+    second: Props_atlas_9
+  - first:
+      213: -7141630730947846127
+    second: Props_atlas_10
+  - first:
+      213: -1799186371523126237
+    second: Props_atlas_11
+  - first:
+      213: -7822860899033318938
+    second: Props_atlas_12
+  - first:
+      213: -1113599193377836456
+    second: Props_atlas_13
+  - first:
+      213: -3755512555475365459
+    second: Props_atlas_14
+  - first:
+      213: -7074367168007838765
+    second: Props_atlas_15
+  - first:
+      213: -3241183826298802483
+    second: Props_atlas_16
+  - first:
+      213: -7407908900518785892
+    second: Props_atlas_17
+  - first:
+      213: -8272533240774936308
+    second: Props_atlas_18
+  - first:
+      213: 1045773811460670733
+    second: Props_atlas_19
+  - first:
+      213: 1755708838735811254
+    second: Props_atlas_20
+  - first:
+      213: -3272066951250856688
+    second: Props_atlas_21
+  - first:
+      213: 6395196375230685754
+    second: Props_atlas_22
+  - first:
+      213: -3415349871570194471
+    second: Props_atlas_23
+  - first:
+      213: -9149694684009980926
+    second: Props_atlas_24
+  - first:
+      213: 8780710379757295937
+    second: Props_atlas_25
+  - first:
+      213: 1462806003816872820
+    second: Props_atlas_26
+  - first:
+      213: -875354131201488939
+    second: Props_atlas_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Props_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1755
+        width: 378
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb57dddc541ca4d0800000000000000
+      internalID: -3122098052583171143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1755
+        width: 295
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68f03b7da58b4960800000000000000
+      internalID: 7587304977378375789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1786
+        width: 237
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba0a52bf64dcff0800000000000000
+      internalID: -14277179330221281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1802
+        width: 189
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d338f86af3661980800000000000000
+      internalID: -8568551313871719469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1752
+        width: 273
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bc217d82edc4c00800000000000000
+      internalID: 886327493673536342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1378
+        width: 252
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb18b1b9ca831200800000000000000
+      internalID: 149615811508050877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1334
+        width: 298
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e9f45d4a2ffcb0800000000000000
+      internalID: -4828093763891371168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1334
+        width: 298
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd63f08267358d0800000000000000
+      internalID: -2858811424024109146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1376
+        width: 466
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bd6520980338170800000000000000
+      internalID: 8179434713242852242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 917
+        width: 584
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559aafa82fa2f6df0800000000000000
+      internalID: -184881838496765611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 979
+        width: 187
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11027dc20b4d3ec90800000000000000
+      internalID: -7141630730947846127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1084
+        width: 424
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cd3a017810807e0800000000000000
+      internalID: -1799186371523126237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1047
+        width: 89
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e973d9a57d9f6390800000000000000
+      internalID: -7822860899033318938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1047
+        width: 89
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8527d880f63bb80f0800000000000000
+      internalID: -1113599193377836456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1044
+        width: 89
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11f557a3db1ebc0800000000000000
+      internalID: -3755512555475365459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 666
+        width: 216
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3e434da8cc2dd90800000000000000
+      internalID: -7074367168007838765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 666
+        width: 215
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcee7b58b700503d0800000000000000
+      internalID: -3241183826298802483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 749
+        width: 191
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c8f109a12d13990800000000000000
+      internalID: -7407908900518785892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 719
+        width: 837
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09bff6e8de023d80800000000000000
+      internalID: -8272533240774936308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 422
+        width: 549
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d050583adb5538e00800000000000000
+      internalID: 1045773811460670733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 415
+        width: 195
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b29cddf2e78d5810800000000000000
+      internalID: 1755708838735811254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 514
+        width: 837
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015b569a1784792d0800000000000000
+      internalID: -3272066951250856688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 220
+        width: 549
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32ad76583d40c850800000000000000
+      internalID: 6395196375230685754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 81
+        width: 195
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfe169136d3a90d0800000000000000
+      internalID: -3415349871570194471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 309
+        width: 837
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c1e4c7921c50180800000000000000
+      internalID: -9149694684009980926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 304
+        width: 121
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149d40571995bd970800000000000000
+      internalID: 8780710379757295937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 60
+        width: 548
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b30d86f4eec4410800000000000000
+      internalID: 1462806003816872820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 83
+        width: 837
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d780153e0e1ad3f0800000000000000
+      internalID: -875354131201488939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
