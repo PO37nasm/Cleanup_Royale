@@ -41,7 +41,7 @@ public class Movement : MonoBehaviour
     }
     private void Move()
     {
-        Debug.Log(sprint);
+        //Debug.Log(sprint);
         velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
         if (sprint)
         {
