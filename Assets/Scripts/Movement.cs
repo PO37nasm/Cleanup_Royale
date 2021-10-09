@@ -57,6 +57,17 @@ public class Movement : MonoBehaviour
         animator.SetFloat("Vertical", direction.y);
         animator.SetFloat("Speed", Mathf.Abs(velocity.x) + Mathf.Abs(velocity.y));
     }
+
+    public void freeze()
+    {
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
+    }
+
+    public void unfreeze()
+    {
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        GetComponent<Rigidbody2D>().freezeRotation = true;
+    }
    
 
         private void FixedUpdate()
