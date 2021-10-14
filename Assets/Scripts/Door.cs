@@ -42,9 +42,10 @@ public class Door: MonoBehaviour
     {
         state = 0;
         gameObject.tag = "Door";
-        GetComponent<SpriteRenderer>().sprite = normalSprite;
         closedCollider.enabled = true;
         GetComponent<Animator>().SetBool("Broken", false);
+        GetComponent<Animator>().Play("Close");
+        //GetComponent<SpriteRenderer>().sprite = normalSprite;
         Debug.Log("Door Repaired");
     }
 
