@@ -28,14 +28,14 @@ public class Door: MonoBehaviour
         state = 1;
         GetComponent<Animator>().Play("Open");
         closedCollider.enabled = false;
-        Debug.Log("Door Opened");
+       // Debug.Log("Door Opened");
     }
     public void Close()
     {
         state = 0;
         GetComponent<Animator>().Play("Close");
         closedCollider.enabled = true;
-        Debug.Log("Door Closed");
+        //Debug.Log("Door Closed");
     }
 
     public void Repair()
@@ -46,7 +46,7 @@ public class Door: MonoBehaviour
         GetComponent<Animator>().SetBool("Broken", false);
         GetComponent<Animator>().Play("Close");
         //GetComponent<SpriteRenderer>().sprite = normalSprite;
-        Debug.Log("Door Repaired");
+        //Debug.Log("Door Repaired");
     }
 
     //public void Break()

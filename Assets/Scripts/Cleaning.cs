@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Cleaning : MonoBehaviour
-{
-    private bool cleaned = false;
-    private void OnTriggerStay2D(Collider2D collision)
+{    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Dirt") && collision != null)
         {

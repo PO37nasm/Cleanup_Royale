@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class RandomSprite : MonoBehaviour
 {
@@ -10,5 +11,9 @@ public class RandomSprite : MonoBehaviour
     {
         int spriteSelect = Random.Range(0, sprites.Count);
         GetComponent<SpriteRenderer>().sprite = sprites[spriteSelect];
+        if (GetComponent<Light2D>() != null && GetComponent<Light2D>().lightType == Light2D.LightType.Sprite)
+        {
+            GetComponent<Light2D>().lightCookieSprite = sprites[spriteSelect];
+        }
     }
 }
