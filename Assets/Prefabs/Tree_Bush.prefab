@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4520093604559666205}
   - component: {fileID: 7698315183535439497}
   - component: {fileID: 5852897429960576733}
+  - component: {fileID: 6078308062382430315}
   m_Layer: 0
   m_Name: Tree_Bush
   m_TagString: Untagged
@@ -146,3 +147,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &6078308062382430315
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565198894564283719}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.012596306, y: 0.033113893}
+  m_Size: {x: 0.20659336, y: 0.06623141}
+  m_Direction: 1

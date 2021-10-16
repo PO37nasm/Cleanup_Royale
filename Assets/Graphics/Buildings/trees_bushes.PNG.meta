@@ -403,27 +403,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_bushes_12
-      rect:
-        serializedVersion: 2
-        x: 1094
-        y: 475
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d2ba745a5b25fa20800000000000000
-      internalID: 3095427985851462361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: trees_bushes_13
       rect:
         serializedVersion: 2
