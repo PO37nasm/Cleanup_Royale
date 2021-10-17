@@ -11,7 +11,8 @@ public class Pickup : MonoBehaviour
             // alert that weapon can be picked up
             if (Input.GetButton("Fire1") && collision != null)
             {
-                GetComponentInParent<Inventory>().AddWeapon(collision.GetComponent<SpriteRenderer>().sprite);
+                GetComponentInParent<Inventory>().AddWeapon(collision.gameObject);
+                collision.gameObject.SetActive(false);
                 GetComponentInParent<Animator>().Play("PutDownPickUp");
                 GetComponentInParent<Movement>().freeze();
                 StartCoroutine(waitForPickup(collision));
@@ -34,7 +35,7 @@ public class Pickup : MonoBehaviour
         GetComponentInParent<Movement>().unfreeze();
         if (collision != null)
         {
-            Destroy(collision.gameObject);
+            
         }
     }
 }

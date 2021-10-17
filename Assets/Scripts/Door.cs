@@ -25,28 +25,42 @@ public class Door: MonoBehaviour
 
     public void Open()
     {
-        state = 1;
-        GetComponent<Animator>().Play("Open");
-        closedCollider.enabled = false;
-       // Debug.Log("Door Opened");
+        if (state != 2)
+        {
+            state = 1;
+            GetComponentInParent<TaskTracker>().AddTask();
+            GetComponent<Animator>().Play("Open");
+            closedCollider.enabled = false;
+            GetComponent<AudioSource>().Play();
+            // Debug.Log("Door Opened");
+        }
     }
     public void Close()
     {
-        state = 0;
-        GetComponent<Animator>().Play("Close");
-        closedCollider.enabled = true;
-        //Debug.Log("Door Closed");
+        if (state != 2)
+        {
+            state = 0;
+            GetComponentInParent<TaskTracker>().FinishTask();
+            GetComponent<Animator>().Play("Close");
+            closedCollider.enabled = true;
+            GetComponent<AudioSource>().Play();
+            //Debug.Log("Door Closed");
+        }
     }
 
     public void Repair()
-    {
-        state = 0;
-        gameObject.tag = "Door";
-        closedCollider.enabled = true;
-        GetComponent<Animator>().SetBool("Broken", false);
-        GetComponent<Animator>().Play("Close");
-        //GetComponent<SpriteRenderer>().sprite = normalSprite;
-        //Debug.Log("Door Repaired");
+    { 
+        if (state == 2)
+        {
+            state = 0;
+            gameObject.tag = "Door";
+            closedCollider.enabled = true;
+            GetComponentInParent<TaskTracker>().FinishTask();
+            GetComponent<Animator>().SetBool("Broken", false);
+            GetComponent<Animator>().Play("Close");
+            //GetComponent<SpriteRenderer>().sprite = normalSprite;
+            //Debug.Log("Door Repaired");
+        }
     }
 
     //public void Break()

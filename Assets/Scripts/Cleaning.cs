@@ -31,6 +31,7 @@ public class Cleaning : MonoBehaviour
         GetComponentInParent<Movement>().unfreeze();
         if (collision != null)
         {
+            collision.GetComponentInParent<TaskTracker>().FinishTask();
             Destroy(collision.gameObject);
         }  
     }

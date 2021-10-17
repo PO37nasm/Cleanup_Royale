@@ -11,9 +11,9 @@ public class PlaceItem : MonoBehaviour
         if (Input.GetButton("Fire1")&& collision.GetComponent<ItemSpot>() != null && !collision.GetComponent<ItemSpot>().isFilled())
         {
             //alert that object can be placed
-            if (collision.CompareTag("WeaponSpot") && collision != null)
+            if (collision.CompareTag("WeaponSpot") && collision != null && GetComponentInParent<Inventory>().hasWeapon())
             {
-                collision.GetComponent<SpriteRenderer>().sprite = GetComponentInParent<Inventory>().GetWeapon(0);
+                collision.GetComponent<SpriteRenderer>().sprite = GetComponentInParent<Inventory>().GetWeapon(0).GetComponent<SpriteRenderer>().sprite;
                 GetComponentInParent<Inventory>().RemoveWeapon(0);
                 collision.GetComponent<ItemSpot>().fill();
                 GetComponentInParent<Animator>().Play("PutDownPickUp");

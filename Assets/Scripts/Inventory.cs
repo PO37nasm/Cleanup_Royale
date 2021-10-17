@@ -5,14 +5,26 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     [SerializeField]
-    private List<Sprite> weapons;
+    private List<GameObject> weapons;
 
-    public void AddWeapon(Sprite weapon)
+    public bool hasWeapon()
+    {
+        switch (weapons.Count)
+        {
+            case 0:
+                return false;
+
+            default:
+                return true;
+        }
+
+    }
+    public void AddWeapon(GameObject weapon)
     {
         weapons.Add(weapon);
     }
 
-    public Sprite GetWeapon(int index)
+    public GameObject GetWeapon(int index)
     {
         return weapons[index];
     }
@@ -24,7 +36,7 @@ public class Inventory : MonoBehaviour
 
     public void RemoveWeapon(int index)
     {
-        //Destroy(weapons[index]);
         weapons.RemoveAt(index);
+        
     }
 }
