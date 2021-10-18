@@ -50,7 +50,6 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit()
     {
-        PlayerPrefs.SetInt("OilCollected", 0);
         Application.Quit();
     }
 
