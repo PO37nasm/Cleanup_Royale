@@ -27,7 +27,11 @@ public class TaskTracker : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        trackerUI.text = tasks.ToString();
+        if (trackerUI != null)
+        {
+            trackerUI.text = tasks.ToString();
+        }
+        
         if (tasks <= 0)
         {
             finishedAll = true;
