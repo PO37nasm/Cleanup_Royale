@@ -13,6 +13,8 @@ public class PauseMenu : MonoBehaviour
     private void Awake()
     {
         GameOverMenu.GameIsOver = false;
+        Time.timeScale = 1f;
+        GameIsPaused = false;
     }
     void Update()
     {
