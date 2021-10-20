@@ -5496,6 +5496,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Back
       objectReference: {fileID: 0}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1993273571}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8737967693998631497, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9112804169332398207, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -5701,6 +5729,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974379597}
   m_CullTransparentMesh: 1
+--- !u!1 &1993273571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3294902718295048419, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+  m_PrefabInstance: {fileID: 1946080001}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2017913768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5227818829612070214, guid: ad27cbc414983b248bc755e67ef28d3b, type: 3}
