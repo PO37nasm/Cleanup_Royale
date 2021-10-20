@@ -19,6 +19,10 @@ public class TaskTracker : MonoBehaviour
     public void AddTask()
     {
         tasks += 1;
+        if (finishedAll == true)
+        {
+            finishedAll = false;
+        }
     }
 
     public bool Isfinished()

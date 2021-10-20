@@ -21,9 +21,11 @@ public class Door: MonoBehaviour
                 break;
             case 1:
                 GetComponent<Animator>().SetBool("Open", true);
+                closedCollider.enabled = false;
                 break;
             case 2:
                 GetComponent<Animator>().SetBool("Broken", true);
+                closedCollider.enabled = false;
                 break;
         }
     }
@@ -36,7 +38,6 @@ public class Door: MonoBehaviour
             GetComponentInParent<TaskTracker>().AddTask();
             GetComponent<Animator>().SetBool("Open", true);
             closedCollider.enabled = false;
-            GetComponent<AudioSource>().Play();
             // Debug.Log("Door Opened");
         }
     }
@@ -48,7 +49,6 @@ public class Door: MonoBehaviour
             GetComponentInParent<TaskTracker>().FinishTask();
             GetComponent<Animator>().SetBool("Open", false);
             closedCollider.enabled = true;
-            GetComponent<AudioSource>().Play();
             //Debug.Log("Door Closed");
         }
     }

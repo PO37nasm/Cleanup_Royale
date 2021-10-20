@@ -10,6 +10,8 @@ public class Timer: MonoBehaviour
     private float startTime = 0f;
     [SerializeField]
     private TMP_Text timer;
+    [SerializeField]
+    private AudioClip loseSound;
 
     private void Start()
     {
@@ -22,6 +24,7 @@ public class Timer: MonoBehaviour
         if (Time.timeSinceLevelLoad > arriveTime)
         {
             timer.gameObject.SetActive(false);
+            GetComponent<AudioSource>().PlayOneShot(loseSound);
             GetComponent<GameOverMenu>().GameOver();
         }
     }

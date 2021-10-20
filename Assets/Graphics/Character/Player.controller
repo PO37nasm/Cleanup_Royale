@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f3eece2f6e0c1488875afa1c12ce64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 177f6aac55d1ae64dabc5e7c5df26c36, type: 3}
+  sound: {fileID: 8300000, guid: 731534f9fc3bda040b4ade23721b1dc0, type: 3}
 --- !u!1102 &-8945891590257093071
 AnimatorState:
   serializedVersion: 6
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f3eece2f6e0c1488875afa1c12ce64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 506dde8811d66894b84b9243e009912a, type: 3}
+  sound: {fileID: 8300000, guid: 232ace5ac260a8f44863eadce062c966, type: 3}
 --- !u!1101 &-6397505761708945943
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
