@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    public int nextScene;
-    public void LoadLevel()
+    [SerializeField]
+    private int nextScene;
+    public void LoadNextLevel()
     {
         SceneManager.LoadScene(nextScene);
+    }
+
+    public void LoadLevel(int levelID)
+    {
+        SceneManager.LoadScene(levelID);
     }
 }
