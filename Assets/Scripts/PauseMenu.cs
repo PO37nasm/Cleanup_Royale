@@ -10,6 +10,10 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject optionsMenu;
 
+    private void Awake()
+    {
+        GameOverMenu.GameIsOver = false;
+    }
     void Update()
     {
         if (Input.GetKeyDown("escape") && !GameOverMenu.GameIsOver)
