@@ -409,6 +409,7 @@ MonoBehaviour:
   arriveTime: 999
   timer: {fileID: 3294902718295553348}
   loseSound: {fileID: 8300000, guid: 3dd0d5d3def26304aa98d20057ccc649, type: 3}
+  countDown: {fileID: 8300000, guid: a5b2a47bc5eee304bada9bedf2dfc8b9, type: 3}
 --- !u!82 &709681331503466077
 AudioSource:
   m_ObjectHideFlags: 0

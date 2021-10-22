@@ -12,10 +12,14 @@ public class Timer: MonoBehaviour
     private TMP_Text timer;
     [SerializeField]
     private AudioClip loseSound;
+    [SerializeField]
+    private AudioClip countDown;
+    private bool countDownStarted = false;
 
     private void Start()
     {
         startTime = Time.fixedTime;
+        countDownStarted = false;
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -26,6 +30,11 @@ public class Timer: MonoBehaviour
             timer.gameObject.SetActive(false);
             GetComponent<AudioSource>().PlayOneShot(loseSound);
             GetComponent<GameOverMenu>().GameOver();
+        }
+        if (Time.timeSinceLevelLoad > arriveTime - 11 && !countDownStarted)
+        {
+            GetComponent<AudioSource>().PlayOneShot(countDown);
+            countDownStarted = true;
         }
     }
 }
