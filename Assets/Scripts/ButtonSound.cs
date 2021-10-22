@@ -6,6 +6,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class ButtonSound : MonoBehaviour
 {
+    //REDUNDANT
     private Button button { get { return GetComponent<Button>(); } }
     [SerializeField]
     private AudioClip hoverSound;
