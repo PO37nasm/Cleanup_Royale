@@ -9,12 +9,26 @@ public class CompleteCheck : MonoBehaviour
     [SerializeField]
     private AudioClip winSound;
     private TaskTracker[] trackers;
+    private bool timeToLeave = false;
     private void Start()
     {
         trackers = FindObjectsOfType<TaskTracker>();
     }
     public void CheckTrackers()
     {
+        timeToLeave = true;
+        foreach (TaskTracker tracker in trackers)
+        {
+            if (!tracker.Isfinished() && !tracker.isExit)
+            {
+                timeToLeave = false;
+            }
+        }
+        if (timeToLeave)
+        {
+            Debug.Log("Should appear");
+            FindObjectOfType<ObjectivePointer>().Appear();
+        }
         foreach (TaskTracker tracker in trackers)
         { 
             if (!tracker.Isfinished())

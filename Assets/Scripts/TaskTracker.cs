@@ -10,6 +10,8 @@ public class TaskTracker : MonoBehaviour
     [SerializeField]
     private TMP_Text trackerUI;
     private bool finishedAll = false;
+    [SerializeField]
+    public bool isExit = false;
 
     public void FinishTask()
     {
@@ -36,7 +38,7 @@ public class TaskTracker : MonoBehaviour
             trackerUI.text = tasks.ToString();
         }
         
-        if (tasks <= 0)
+        if (tasks <= 0 && !finishedAll)
         {
             finishedAll = true;
             FindObjectOfType<CompleteCheck>().CheckTrackers();

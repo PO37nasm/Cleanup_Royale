@@ -126,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tasks: 1
   trackerUI: {fileID: 0}
+  isExit: 1
 --- !u!114 &2213840066247217223
 MonoBehaviour:
   m_ObjectHideFlags: 0
