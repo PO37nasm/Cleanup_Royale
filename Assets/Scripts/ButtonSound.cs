@@ -15,11 +15,13 @@ public class ButtonSound : MonoBehaviour
     private void OnMouseEnter()
     {
         PlaySound(hoverSound);
+        Debug.Log("Button Hover");
     }
 
     private void OnMouseUpAsButton()
     {
         PlaySound(clickSound);
+        Debug.Log("Button Click");
     }
 
     private void PlaySound(AudioClip sound)
