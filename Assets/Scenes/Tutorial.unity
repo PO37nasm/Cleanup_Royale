@@ -5305,6 +5305,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3294902718039941988, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3294902718191034397, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5315,7 +5319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3294902718295048441, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3294902718295048442, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_Pivot.x
@@ -5410,12 +5414,36 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3294902718812914257, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6023172365906290027, guid: 9884a60817b002f47bb64a0b07445bee, type: 2}
+    - target: {fileID: 3294902718812914257, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3294902719059868453, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268086241995086703, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273261379655961399, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753216472680380010, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753216472810044278, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753216473206210939, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c233a4b514ced224abf9c2544a96c030, type: 3}

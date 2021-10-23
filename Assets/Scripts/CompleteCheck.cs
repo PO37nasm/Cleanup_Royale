@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CompleteCheck : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class CompleteCheck : MonoBehaviour
     private AudioClip winSound;
     private TaskTracker[] trackers;
     private bool timeToLeave = false;
+    [SerializeField]
+    private TMP_Text scoreUI;
+
     private void Start()
     {
         trackers = FindObjectsOfType<TaskTracker>();
@@ -40,6 +44,7 @@ public class CompleteCheck : MonoBehaviour
         Time.timeScale = 0f;
         GetComponent<AudioSource>().PlayOneShot(winSound);
         winUI.SetActive(true);
+        scoreUI.text = GetComponent<Timer>().GetTimePassed().ToString();
         GameOverMenu.GameIsOver = true;
         PauseMenu.GameIsPaused = true;
     }

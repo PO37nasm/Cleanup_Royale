@@ -37,4 +37,9 @@ public class Timer: MonoBehaviour
             countDownStarted = true;
         }
     }
+
+    public int GetTimePassed()
+    {
+        return Mathf.RoundToInt((Time.fixedTime - startTime));
+    }
 }
