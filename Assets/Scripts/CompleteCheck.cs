@@ -44,7 +44,7 @@ public class CompleteCheck : MonoBehaviour
         Time.timeScale = 0f;
         GetComponent<AudioSource>().PlayOneShot(winSound);
         winUI.SetActive(true);
-        scoreUI.text = GetComponent<Timer>().GetTimePassed().ToString();
+        scoreUI.text = GetComponent<Timer>().GetTimeLeft().ToString();
         GameOverMenu.GameIsOver = true;
         PauseMenu.GameIsPaused = true;
     }

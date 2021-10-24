@@ -67,4 +67,9 @@ public class Timer: MonoBehaviour
     {
         return Mathf.RoundToInt((Time.fixedTime - startTime));
     }
+
+    public int GetTimeLeft()
+    {
+        return Mathf.RoundToInt(arriveTime - (Time.fixedTime - startTime));
+    }
 }
