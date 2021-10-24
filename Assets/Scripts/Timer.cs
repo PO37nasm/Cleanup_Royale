@@ -58,7 +58,7 @@ public class Timer: MonoBehaviour
         if (Time.timeSinceLevelLoad > arriveTime - 11 && !countDownStarted)
         {
             GetComponent<AudioSource>().PlayOneShot(countDown);
-            FindObjectOfType<MusicControl>().StopMusic();
+            if (FindObjectOfType<MusicControl>() != null) { FindObjectOfType<MusicControl>().StopMusic(); }
             countDownStarted = true;
         }
     }

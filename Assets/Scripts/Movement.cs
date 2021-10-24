@@ -20,8 +20,15 @@ public class Movement : MonoBehaviour
     }
     private void Update()
     {
-        ProcessInputs();
-        animate();
+        if (GameManager.inputEnabled == true)
+        {
+            ProcessInputs();
+            animate();
+        }
+        if (body.rotation != 0)
+        {
+            body.rotation = 0;
+        }
     }
 
     private void ProcessInputs()
@@ -33,12 +40,12 @@ public class Movement : MonoBehaviour
         
     }
 
-    private void faceMouse()
+    /*private void faceMouse()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 vectorToTarget = new Vector3(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y, 0);
         transform.rotation = Quaternion.LookRotation(forward: Vector3.forward, -vectorToTarget);
-    }
+    }*/
     private void Move()
     {
         //Debug.Log(sprint);

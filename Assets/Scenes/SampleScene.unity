@@ -15807,6 +15807,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 446198668}
+    - target: {fileID: 7598996405613866295, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7950212503143859055, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: m_sharedMaterial
       value: 

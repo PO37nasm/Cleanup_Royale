@@ -8,10 +8,11 @@ public class Cleaning : MonoBehaviour
         if (collision.CompareTag("Dirt") && collision != null)
         {
             //Code to alert player cleaning is possible could go here, thus split in if statements
-            if (Input.GetButton("Fire1"))
+            if (Input.GetButton("Fire1") && GameManager.inputEnabled == true)
             {
                 GetComponentInParent<Animator>().Play("Clean");
                 GetComponentInParent<Movement>().freeze();
+                GameManager.inputEnabled = false;
                 StartCoroutine(waitForClean(collision));
             }
         }
@@ -28,9 +29,10 @@ public class Cleaning : MonoBehaviour
 
     void finishClean(Collider2D collision)
     {
-        GetComponentInParent<Movement>().unfreeze();
         if (collision != null)
         {
+            GetComponentInParent<Movement>().unfreeze();
+            GameManager.inputEnabled = true;
             collision.GetComponentInParent<TaskTracker>().FinishTask();
             Destroy(collision.gameObject);
         }  

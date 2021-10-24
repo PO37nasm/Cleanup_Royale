@@ -9,12 +9,13 @@ public class Pickup : MonoBehaviour
         if (collision.CompareTag("Weapon") && collision != null)
         {
             // alert that weapon can be picked up
-            if (Input.GetButton("Fire1") && collision != null)
+            if (Input.GetButton("Fire1") && collision != null && GameManager.inputEnabled == true)
             {
                 GetComponentInParent<Inventory>().AddWeapon(collision.gameObject);
                 collision.gameObject.SetActive(false);
                 GetComponentInParent<Animator>().Play("PutDownPickUp");
                 GetComponentInParent<Movement>().freeze();
+                GameManager.inputEnabled = false;
                 StartCoroutine(waitForPickup(collision));
             }
         }
@@ -32,10 +33,10 @@ public class Pickup : MonoBehaviour
 
     void finishPickup(Collider2D collision)
     {
-        GetComponentInParent<Movement>().unfreeze();
         if (collision != null)
         {
-            
+            GetComponentInParent<Movement>().unfreeze();
+            GameManager.inputEnabled = true;
         }
     }
 }
