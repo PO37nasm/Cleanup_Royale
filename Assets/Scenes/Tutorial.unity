@@ -5405,6 +5405,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3294902718295048443, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
+      propertyPath: nextScene
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3294902718295048445, guid: c233a4b514ced224abf9c2544a96c030, type: 3}
       propertyPath: arriveTime
       value: 666
