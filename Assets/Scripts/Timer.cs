@@ -24,7 +24,31 @@ public class Timer: MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        timer.text = "" + Mathf.RoundToInt(arriveTime - (Time.fixedTime - startTime));
+        int timeLeft = Mathf.RoundToInt(arriveTime - (Time.fixedTime - startTime));
+        int minutes = timeLeft / 60;
+        int seconds = timeLeft % 60;
+
+        switch (timeLeft > 0)
+        {
+            case true when minutes >= 10 && seconds >= 10:
+                timer.text =  minutes + ":" + seconds;
+                break;
+            case true when minutes < 10 && seconds >= 10:
+                timer.text = "0" + minutes + ":" + seconds;
+                break;
+            case true when minutes >= 10 && seconds < 10:
+                timer.text = minutes + ":" + "0" + seconds;
+                break;
+            case true when minutes < 10 && seconds < 10:
+                timer.text = "0" + minutes + ":" + "0" + seconds;
+                break;
+        }
+        
+        if (timeLeft < 11)
+        {
+            timer.color = new Color(255, 0, 0);
+        }
+
         if (Time.timeSinceLevelLoad > arriveTime)
         {
             timer.gameObject.SetActive(false);
@@ -34,6 +58,7 @@ public class Timer: MonoBehaviour
         if (Time.timeSinceLevelLoad > arriveTime - 11 && !countDownStarted)
         {
             GetComponent<AudioSource>().PlayOneShot(countDown);
+            FindObjectOfType<MusicControl>().StopMusic();
             countDownStarted = true;
         }
     }
