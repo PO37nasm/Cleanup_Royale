@@ -8,7 +8,6 @@ using System.Linq;
 
 public class OptionsScript : MonoBehaviour
 {
-    public AudioMixer audioMixer;
     public TMP_Dropdown resolutionDropdown;
     Resolution[] resolutions;
     private void Start()
@@ -31,10 +30,6 @@ public class OptionsScript : MonoBehaviour
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
 
-    }
-    public void SetVolume(float volume)
-    {
-        audioMixer.SetFloat("volume", volume);
     }
 
     public void SetFullscreen(bool isFullScreen)

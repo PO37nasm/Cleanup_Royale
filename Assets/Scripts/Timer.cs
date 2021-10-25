@@ -15,6 +15,8 @@ public class Timer: MonoBehaviour
     [SerializeField]
     private AudioClip countDown;
     private bool countDownStarted = false;
+    [SerializeField]
+    private float countDownStartTime = 60.5f;
 
     private void Start()
     {
@@ -44,7 +46,7 @@ public class Timer: MonoBehaviour
                 break;
         }
         
-        if (timeLeft < 11)
+        if (timeLeft < countDownStartTime)
         {
             timer.color = new Color(255, 0, 0);
         }
@@ -55,7 +57,7 @@ public class Timer: MonoBehaviour
             GetComponent<AudioSource>().PlayOneShot(loseSound);
             GetComponent<GameOverMenu>().GameOver();
         }
-        if (Time.timeSinceLevelLoad > arriveTime - 11 && !countDownStarted)
+        if (Time.timeSinceLevelLoad > arriveTime - countDownStartTime && !countDownStarted)
         {
             GetComponent<AudioSource>().PlayOneShot(countDown);
             if (FindObjectOfType<MusicControl>() != null) { FindObjectOfType<MusicControl>().StopMusic(); }
