@@ -1305,7 +1305,7 @@ MonoBehaviour:
   arriveTime: 900
   timer: {fileID: 3294902718295553348}
   loseSound: {fileID: 8300000, guid: 3dd0d5d3def26304aa98d20057ccc649, type: 3}
-  countDown: {fileID: 8300000, guid: a5b2a47bc5eee304bada9bedf2dfc8b9, type: 3}
+  countDown: {fileID: 8300000, guid: 6722ab60980c3db4ea233d4b918d0429, type: 3}
   countDownStartTime: 60.5
 --- !u!82 &709681331503466077
 AudioSource:
@@ -4862,7 +4862,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 97.8
+      value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.2000122
       objectReference: {fileID: 0}
     - target: {fileID: 8201266655836513945, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_text
@@ -5742,7 +5746,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 97.8
+      value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.2000065
       objectReference: {fileID: 0}
     - target: {fileID: 8201266655836513945, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_text
@@ -6508,7 +6516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 97.8
+      value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.2
       objectReference: {fileID: 0}
     - target: {fileID: 8201266655836513945, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_text
@@ -6674,7 +6686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 97.8
+      value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766934556451594266, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.2000122
       objectReference: {fileID: 0}
     - target: {fileID: 8201266655836513945, guid: ce46e14085d8c93439f4e4d3a260f63d, type: 3}
       propertyPath: m_text
