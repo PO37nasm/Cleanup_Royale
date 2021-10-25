@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class Door: MonoBehaviour
 {
@@ -61,6 +62,7 @@ public class Door: MonoBehaviour
             gameObject.tag = "Door";
             closedCollider.enabled = true;
             GetComponentInParent<TaskTracker>().FinishTask();
+            GetComponentInChildren<Light2D>().enabled = false;
             GetComponent<Animator>().SetBool("Broken", false);
             GetComponent<Animator>().SetBool("Open", false);
             //GetComponent<SpriteRenderer>().sprite = normalSprite;

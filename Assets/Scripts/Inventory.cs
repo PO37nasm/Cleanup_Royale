@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
     [SerializeField]
     private List<GameObject> weapons;
-
+    [SerializeField]
+    private TMP_Text counter;
     public bool hasWeapon()
     {
         switch (weapons.Count)
@@ -38,5 +40,10 @@ public class Inventory : MonoBehaviour
     {
         weapons.RemoveAt(index);
         
+    }
+
+    private void FixedUpdate()
+    {
+        counter.text = weapons.Count.ToString();
     }
 }
